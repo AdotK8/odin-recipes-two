@@ -24,18 +24,38 @@
     height: 300px;
 }
 
-div.recipes {
-    
-    text-align: center;
-    color: black;
-    font-weight: 300;
+.a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 471px;
+    height: 300px;
 }
 
-ul.ingredient-list {
+div.recipes {
+   
+    text-align: center;
+    color: black;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+ul.recipe-list {
     list-style-type: upper-roman;
     font-size: 25px;
-    text-align: center;
     display: inline-block;
+}
+
+ul#b {
+    list-style-type:circle; 
+    display: inline-block;
+    font-size: 25px;
+}
+
+.button {
+    font-size: 25px;
+    background-color: rgba(255,93,88, 0.6);
+    color: white;
 }
 
 
