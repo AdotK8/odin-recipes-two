@@ -1,48 +1,22 @@
 * {
     font-family:
     box-sizing: border-box;
-
    /* border: 1px solid black; */
     
  
 }
 
-body {
-    
-    background-color: rgba(253, 253, 79, 0.844);
-    
-}
-
-.intro {
-
+.container {
     border: 1px solid black;
-    border-radius: 25px 25px 0 0;
-    border-bottom:1px solid black;
-    height:auto;
-    width:700px;
-    margin: 0 auto;
-    margin-top: 50px;
-    font-size: 20px;
-    padding: 10px;
-    text-align: center;
-    background-color: rgba(243, 184, 243, 0.844);
-    box-shadow: 10px 10px rgb(0, 0, 0);
-
-
-
+    
 }
 
-h1 {
-    text-align: center;
-    font-weight: 100;
-    color: rgba(52, 48, 52, 0.844);
-}
 
 .recipe-card {
     display: inline-block;
     width: 400px;
     height:610px;
-    background-color: rgba(243, 184, 243, 0.844);
+    background-color: rgba(242, 173, 134, 0.844);
     margin: 30px;
     border: 1px solid black;
     box-shadow: 10px 10px rgb(0, 0, 0);
